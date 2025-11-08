@@ -1,21 +1,30 @@
-Welcome to **BlueVault**, your Next.js-powered bank app!  
-It's modern, it's fast, it's blue... and it doesn't judge your impulse purchases.
+# BlueVault   ![Work in Progress](https://img.shields.io/badge/status-work--in--progress-orange?style=for-the-badge)
+
+**BlueVault** is a modern, full-stack digital banking application built with **Next.js 14**, designed to deliver a secure, scalable, and elegant user experience. From authentication to transaction management, BlueVault provides a seamless foundation for next-generation financial applications.  
+
 
 ---
 
-## 🏦 What is BlueVault?
+## 🚀 Features  
 
-BlueVault is not your average digital banking interface.  
-It’s a slick, elegant **Next.js 14** application designed to give your wallet a digital home—  
-from login to transaction logs, we’ve got your (bank) back.  
-
-✨ Built with bleeding-edge tech.  
-🧩 Structured for scale.  
-🎩 Styled to impress.  
-🛡️ Secure like your secrets with your therapist.
+- **Modern UI/UX** – Responsive and accessible interface built with TailwindCSS & Shadcn UI.  
+- **Authentication & Security** – JWT/Clerk integration (configurable) with best-practice security patterns.  
+- **Scalable Backend** – PostgreSQL with Prisma ORM for relational data management.  
+- **Type Safety** – End-to-end TypeScript for reliability and maintainability.  
+- **Developer Friendly** – Hot reload, structured codebase, and modular components.  
 
 ---
 
+## 🛠️ Tech Stack  
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router, SSR/SSG)  
+- **Language**: TypeScript  
+- **Styling**: TailwindCSS, Shadcn UI  
+- **Database**: PostgreSQL with Prisma ORM  
+- **Authentication**: JWT / Clerk (pluggable auth options)  
+- **Other Tools**: ESLint, Prettier, Vercel (for deployment)  
+
+---
 ## 🚀 How to Start the Magic
 
 Ready to vault in? Here’s how you spin up BlueVault locally:
@@ -35,27 +44,9 @@ Your bank awaits... and so do the bugs you wrote at 3AM.
 
 ---
 
-## 🧙‍♀️ Where the Spells Are Cast (aka File Editing)
-
-Start your journey in the **`app/page.tsx`**.  
-This is where your bank’s homepage lives. Make it beautiful. Or dangerous. Or both.  
-The vault auto-unlocks (re-renders) as you tweak the code.
-
----
-
-## 🧠 Tech Stack Behind the Vault Doors
-
-- 💎 **Next.js 14** – The wizard of SSR.
-- 🧬 **TypeScript** – Because undefined is the real enemy.
-- 🎨 **TailwindCSS / Shadcn (if using)** – Style so sharp, it cuts.
-- 🗃️ **PostgreSQL / Prisma** – For your deeply repressed (and relational) data.
-- 🧠 **Auth / JWT / Clerk / Magic Dust** – (choose your own auth flavor)
-
----
-
 ## 🧭 Explore More
 
-If you're not lost yet, these links might help:
+These links might help:
 
 - 📖 [Next.js Documentation](https://nextjs.org/docs)
 - 🧪 [Next.js Learn](https://nextjs.org/learn)
